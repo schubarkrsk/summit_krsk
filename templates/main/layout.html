@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/relases/v5.15.0/css/all.css">
+    <link rel="shortcut icon" type="image/png" href="'favicon.ico'"/>
+</head>
+<body>
+<header>
+    <ul>
+        <li><a href="#top">Главная</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#buy">Купить пригласительный</a></li>
+    </ul>
+</header>
+<main>
+    {% block content %}{% endblock %}
+</main>
+<footer>
+    <p>&copy; 2023 Александр Мартынов. All rights reserved.</p>
+    <p align="right"><a href="http://vk.com/schubar_dev>">Разработано Станиславом Чубарем</a></p>
+</footer>
+</body>
+</html>
