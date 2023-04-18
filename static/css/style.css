@@ -1,7 +1,21 @@
+@font-face {
+  font-family: "gunnyrewritten";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("gunnyrewritten"),
+       /* Если не получилось, загрузит woff2 */
+       url("/static/css/gunnyrewritten.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/static/css/gunnyrewritten.woff") format("woff");
+}
+
 body {
     background: #0000;
     color: aliceblue;
+    font-family: "gunnyrewritten";
 }
+
 a {
     color: white;
 }
@@ -16,9 +30,10 @@ aside {
 }
 header {
     background: #181818;
+    font-family: "gunnyrewritten";
     width: 100%;
     padding: 2.5%;
-    color: #ADADAD;
+    color: powderblue;
 }
 footer {
     background: #4d4d4d;
