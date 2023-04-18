@@ -1,6 +1,9 @@
 body {
-    background: #000000;
+    background: #0000;
     color: aliceblue;
+}
+a {
+    color: white;
 }
 aside {
     float: left;
@@ -15,10 +18,39 @@ header {
     background: #181818;
     width: 100%;
     padding: 2.5%;
-    color: aliceblue;
+    color: #ADADAD;
 }
 footer {
     background: #4d4d4d;
     color: aquamarine;
     width: 100%;
+}
+
+form {
+    background: #0000;
+}
+
+main {
+    background: #0000;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+
+.form-row > input {
+  flex: 1;
+}
+
+div.field {
+  padding-bottom: 5px;
+}
+
+div.field label {
+  display: block;
+  float: left;
+  width: 70px;
+  height: 15px;
 }
