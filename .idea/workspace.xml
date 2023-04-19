@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f588da4-4238-4dcf-9430-5a8d9c7fd69b" name="Changes" comment="commit #2">
-      <change beforePath="$PROJECT_DIR$/.idea/summit_krsk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/summit_krsk.iml" afterDir="false" />
+    <list default="true" id="5f588da4-4238-4dcf-9430-5a8d9c7fd69b" name="Changes" comment="commit #3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681789325845</updated>
-      <workItem from="1681789326991" duration="669000" />
+      <workItem from="1681789326991" duration="1442000" />
     </task>
     <task id="LOCAL-00001" summary="commit #1">
       <created>1681789362042</created>
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681789378770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit #3">
+      <created>1681791602360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681791602360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit #1" />
     <MESSAGE value="commit #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit #2" />
+    <MESSAGE value="commit #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit #3" />
   </component>
 </project>
