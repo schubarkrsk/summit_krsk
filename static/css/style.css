@@ -11,42 +11,49 @@
 }
 
 body {
-    background: #0000;
-    color: aliceblue;
+    background: #090909;
+    color: whitesmoke;
     font-family: "gunnyrewritten";
 }
 
 a {
-    color: white;
+    color: whitesmoke;
 }
 aside {
     float: left;
-    background: #181818;
+    background: #050505;
     width: 20%;
     padding: 2.5%;
     min-height: 100%;
     color: #FFFFFF;
     border-right: 5px solid #4d4d4d;
 }
+.fig {
+    text-align: center; /* Выравнивание по центру */
+    font-size: large;
+    border-radius: 10px;
+   }
 header {
-    background: #181818;
-    font-family: "gunnyrewritten";
+    background: #040404;
+    font-family: "Arial Narrow";
     width: 100%;
     padding: 2.5%;
-    color: powderblue;
+    color: whitesmoke;
 }
 footer {
-    background: #4d4d4d;
-    color: aquamarine;
+    background: #040404;
+    color: whitesmoke;
     width: 100%;
 }
 
 form {
-    background: #0000;
+    background: #040404;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
 main {
-    background: #0000;
+    background: #040404;
 }
 
 .form-row {
